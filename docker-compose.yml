@@ -1,0 +1,35 @@
+services:
+  zmk-build:
+    image: zmkfirmware/zmk-build-arm:stable
+    working_dir: /workspace
+    volumes:
+      - zmk-west-workspace:/workspace
+      - zmk-west-cache:/root/.cache
+      - ./:/repo
+    command: |
+      bash -lc '
+      set -euo pipefail
+
+      mkdir -p /repo/firmware
+
+      rm -rf /workspace/config
+      mkdir -p /workspace/config
+      cp -a /repo/config/. /workspace/config/
+
+      if [ ! -d /workspace/.west ]; then
+        west init -l /workspace/config
+      fi
+
+      cd /workspace
+      west update
+      west zephyr-export
+
+      for shield in jorne_left jorne_right settings_reset; do
+        west build -p -s zmk/app -b nice_nano_v2 -d build/$${shield} -- -DSHIELD=$${shield} -DZMK_CONFIG=/workspace/config
+        cp -f build/$${shield}/zephyr/zmk.uf2 /repo/firmware/$${shield}-nice_nano_v2-zmk.uf2
+      done
+      '
+
+volumes:
+  zmk-west-workspace:
+  zmk-west-cache:
