@@ -23,6 +23,12 @@
             bindings = <&kp ESC>;
             key-positions = <2 3>;
         };
+
+        lang_switch {
+            bindings = <&kp F19>;
+            key-positions = <30 29>;
+            layers = <0>;
+        };
     };
 
     behaviors {
@@ -104,9 +110,9 @@
 
         num {
             bindings = <
-&none  &kp ESCAPE     &kp N1           &kp NUMBER_2        &kp N3     &kp N4      &kp N5         &kp N6     &kp N7         &kp N8                &kp N9                 &kp N0  &kp EQUAL  &none
-       &mt PIPE BSLH  &kp EXCLAMATION  &kp AT_SIGN         &kp HASH   &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
-       &kp TAB        &kp PLUS         &kp RS(UNDERSCORE)  &kp MINUS  &kp EQUAL   &kp F19        &kp EQUAL  &kp BACKSLASH  &kp LESS_THAN         &kp GREATER_THAN       &trans  &trans
+&none  &kp ESCAPE     &kp N1           &kp N2              &kp N3     &kp N4      &kp N5         &kp N6     &kp N7         &kp N8                &kp N9                 &kp N0         &kp EQUAL  &none
+       &mt PIPE BSLH  &kp EXCLAMATION  &kp AT_SIGN         &kp HASH   &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &trans
+       &kp TAB        &kp PLUS         &kp RS(UNDERSCORE)  &kp MINUS  &kp EQUAL   &kp F19        &kp EQUAL  &kp BACKSLASH  &kp LESS_THAN         &kp GREATER_THAN       &trans         &trans
                                                            &trans     &trans      &trans         &trans     &trans         &trans
             >;
         };
