@@ -6,3 +6,5 @@ update:
 
 run: update build
 	git status
+	git commit -a -m 'updated firmware'
+	git push
