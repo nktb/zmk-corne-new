@@ -5,3 +5,4 @@ update:
 	git pull
 
 run: update build
+	git status
