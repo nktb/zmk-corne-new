@@ -65,10 +65,10 @@
 
         num {
             bindings = <
-&none  &trans  &kp N1           &kp N2         &kp N3         &kp N4      &kp N5         &kp N6     &kp N7         &kp N8         &kp N9                &kp N0                 &kp PIPE       &none
-       &trans  &kp EXCLAMATION  &kp AT_SIGN    &kp HASH       &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE
-       &trans  &kp GRAVE        &kp BACKSLASH  &kp MINUS      &kp PLUS    &kp UNDER      &kp MINUS  &kp EQUAL      &kp LESS_THAN  &kp GREATER_THAN      &kp COLON              &kp BACKSLASH
-                                               &kp BACKSPACE  &trans      &kp TAB        &trans     &trans         &trans
+&none  &trans  &kp N1           &kp N2       &kp N3         &kp N4      &kp N5         &kp N6     &kp N7         &kp N8         &kp N9                &kp N0                 &kp PIPE       &none
+       &trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH       &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
+       &trans  &kp GRAVE        &kp TILDE    &kp MINUS      &kp PLUS    &kp UNDER      &kp MINUS  &kp EQUAL      &kp LESS_THAN  &kp GREATER_THAN      &kp COLON              &kp SLASH
+                                             &kp BACKSPACE  &trans      &kp TAB        &trans     &trans         &trans
             >;
         };
 
