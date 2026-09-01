@@ -52,19 +52,19 @@
 
         num {
             bindings = <
-&none  &trans  &kp N1     &kp N2         &kp N3     &kp N4     &kp N5           &kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6   &none
-       &trans  &kp N6     &kp N7         &kp N8     &kp N9     &kp N0           &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-       &trans  &kp GRAVE  &kp BACKSLASH  &kp MINUS  &kp EQUAL  &kp DOT          &trans  &trans  &trans  &trans   &trans   &trans
-                                         &kp TAB    &trans     &kp BACKSPACE    &trans  &trans  &trans
+&none  &trans  &kp N1           &kp N2         &kp N3         &kp N4      &kp N5         &kp N6     &kp N7         &kp N8         &kp N9                &kp N0                 &kp PIPE       &none
+       &trans  &kp EXCLAMATION  &kp AT_SIGN    &kp HASH       &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE
+       &trans  &kp GRAVE        &kp BACKSLASH  &kp MINUS      &kp PLUS    &kp UNDER      &kp MINUS  &kp EQUAL      &kp LESS_THAN  &kp GREATER_THAN      &kp COLON              &kp BACKSLASH
+                                               &kp BACKSPACE  &trans      &kp TAB        &trans     &trans         &trans
             >;
         };
 
         L2 {
             bindings = <
-&none  &trans  &trans  &trans  &trans  &trans  &trans    &kp C_BRI_UP   &kp C_BRI_DEC   &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp K_MUTE  &kp C_PLAY_PAUSE  &none
-       &trans  &trans  &trans  &trans  &trans  &trans    &kp PAGE_UP    &kp HOME        &kp UP_ARROW     &kp END            &kp INS     &kp ESCAPE
-       &trans  &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW    &kp DEL     &kp TAB
-                               &trans  &trans  &trans    &trans         &trans          &trans
+&none  &kp F1    &kp F2      &kp F3             &kp F4           &kp F5                &kp F6                  &kp F7         &kp F8          &kp F9          &kp F10          &kp F11  &kp F12     &none
+       &kp C_PP  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC    &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &kp INS  &kp ESCAPE
+       &trans    &trans      &trans             &trans           &trans                &trans                  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DEL  &kp TAB
+                                                &trans           &trans                &trans                  &trans         &trans          &trans
             >;
         };
 
