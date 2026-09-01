@@ -28,6 +28,19 @@
         l3_on {
             bindings = <&sl 3>;
             key-positions = <39 42>;
+            layers = <0>;
+        };
+
+        backspace_right {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <30 31>;
+            layers = <0>;
+        };
+
+        tab_right {
+            bindings = <&none>;
+            key-positions = <18 19>;
+            layers = <0>;
         };
     };
 
