@@ -74,10 +74,10 @@
 
         L2 {
             bindings = <
-&none  &kp F1    &kp F2      &kp F3             &kp F4           &kp F5                &kp F6                  &kp F7         &kp F8          &kp F9          &kp F10          &kp F11  &kp F12     &none
-       &kp C_PP  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC    &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &kp INS  &kp ESCAPE
-       &trans    &trans      &trans             &trans           &trans                &trans                  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DEL  &kp TAB
-                                                &trans           &trans                &trans                  &trans         &trans          &trans
+&none  &trans  &kp F1    &kp F2             &kp F3           &kp F4                &kp F5                  &kp F6   &kp F7          &kp F8          &kp F9           &kp F10        &kp DEL     &none
+       &trans  &kp C_PP  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC    &kp F11  &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &kp ESCAPE
+       &trans  &trans    &trans             &trans           &trans                &trans                  &kp F12  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp TAB
+                                            &trans           &trans                &trans                  &trans   &trans          &trans
             >;
         };
 
