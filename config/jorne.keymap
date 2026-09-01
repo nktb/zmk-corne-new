@@ -38,7 +38,7 @@
         };
 
         tab_right {
-            bindings = <&none>;
+            bindings = <&kp TAB>;
             key-positions = <18 19>;
             layers = <0>;
         };
